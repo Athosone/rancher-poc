@@ -2,7 +2,7 @@ defaultNamespace: nginx
 paused: false
 
 rolloutStrategy:
-  toe: "titi"
+  toe: "aziziz"
   maxUnavailable: 10%
   schedule:
     cron: "* * * * *"
