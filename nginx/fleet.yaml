@@ -12,12 +12,6 @@ targetCustomizations:
       matchLabels:
         env: dev
     schedule:
-      cron: "*/5 * * * *"
+      # every 5 seconds
+      cron: "*/10 * * * *"
       duration: "20m"
-  
-rolloutStrategy:
-  toe: "aziziz"
-  maxUnavailable: 10%
-  schedule:
-    cron: "* * * * *"
-    duration: "1h"
