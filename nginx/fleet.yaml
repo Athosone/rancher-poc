@@ -2,6 +2,7 @@ defaultNamespace: nginx
 paused: false
 
 rolloutStrategy:
+  maxUnavailable: 10%
   schedule:
     cron: "* * * * *"
     duration: "1h"
