@@ -3,7 +3,7 @@ paused: false
 
 schedule:
   cron: "* * * * *"
-  duration: "10m"
+  duration: "15s"
 
 
 targetCustomizations:
