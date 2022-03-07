@@ -2,8 +2,8 @@ defaultNamespace: nginx-new
 paused: false
 
 schedule:
-  cron: "* 13-14 * * MON"
-  duration: "15s"
+  cron: "* 14 * * 1"
+  duration: "2h"
 
 
 targetCustomizations:
