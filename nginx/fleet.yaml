@@ -2,7 +2,7 @@ defaultNamespace: nginx-new
 paused: false
 
 schedule:
-  cron: "* * * * *"
+  cron: "* 13-14 * * MON"
   duration: "15s"
 
 
