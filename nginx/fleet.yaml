@@ -1,4 +1,4 @@
-defaultNamespace: nginx
+defaultNamespace: nginx-new
 paused: false
 
 schedule:
